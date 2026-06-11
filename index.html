@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Coffee</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav__list nav__list--left">
+          <li class="nav__item nav__item--active">Home</li>
+          <li class="nav__item">About</li>
+          <li class="nav__item">Menu</li>
+          <li class="nav__item">Reservation</li>
+        </ul>
+
+        <div class="nav__logo">
+          <img src="./Logo (2).png" alt="Morning Coffee Logo">
+        </div>
+
+        <div class="nav__right">
+          <ul class="nav__list nav__list--right">
+            <li class="nav__item">Pages</li>
+            <li class="nav__item">Shop</li>
+            <li class="nav__item">Contact</li>
+          </ul>
+          <div class="nav__icons">
+            <img src="./search.png" alt="Search" class="nav__icon">
+            <img src="./shopping-bag.png" alt="Cart" class="nav__icon">
+          </div>
+        </div>
+
+        <!-- Mobile hamburger -->
+        <button class="nav__burger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+
+      <!-- Mobile menu -->
+      <div class="nav__mobile-menu">
+        <ul class="nav__mobile-list">
+          <li class="nav__item nav__item--active">Home</li>
+          <li class="nav__item">About</li>
+          <li class="nav__item">Menu</li>
+          <li class="nav__item">Reservation</li>
+          <li class="nav__item">Pages</li>
+          <li class="nav__item">Shop</li>
+          <li class="nav__item">Contact</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <h1 class="hero__title">Enjoy Your <br> Morning Coffee.</h1>
+        <p class="hero__desc">The coffee is brewed by first roasting the green coffee beans over hot coals in a brazier, given to opportunity.</p>
+        <a href="#" class="btn btn--primary">Taste Coffee</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FLAVOUR LABELS ===== -->
+  <section class="flavours">
+    <div class="container">
+      <div class="flavours__labels">
+        <span class="flavours__label">01 Best Coffee Flavour</span>
+        <span class="flavours__label">03 Place to get lost</span>
+        <span class="flavours__label">04 Proper roasting</span>
+      </div>
+
+      <!-- Gallery row -->
+      <div class="flavours__gallery">
+        <img src="./Rectangle 4.png" alt="Coffee 1" class="flavours__img">
+        <img src="./Rectangle 4 (1).png" alt="Coffee 2" class="flavours__img">
+        <img src="./Rectangle 4 (2).png" alt="Coffee 3" class="flavours__img">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== OUR HISTORY ===== -->
+  <section class="history">
+    <div class="container">
+      <div class="history__inner">
+        <!-- Left: stacked images -->
+        <div class="history__images">
+          <div class="history__images-col">
+            <img src="./Rectangle 4.png" alt="Coffee story" class="history__img">
+            <img src="./Rectangle 4 (1).png" alt="Coffee story" class="history__img">
+          </div>
+          <div class="history__images-col">
+            <img src="./Rectangle 14.png" alt="Coffee story tall" class="history__img-tall">
+          </div>
+        </div>
+
+        <!-- Right: text -->
+        <div class="history__text">
+          <p class="section-eyebrow">Our history</p>
+          <h2 class="section-title">Create a new story with us</h2>
+          <p class="section-body">
+            Mauris rhoncus in imperdiet placerat. Vestibulum nisl suscipit ligula volutpat, a fringilla urn maximus.
+            Cras massa nibh tincidunt. Donec et nibh maximus, est eu, mattis nunc. Praesent ut quam quis quam venenatis
+            fringilla. Morbi vestibulum id tellus molestie mattis. Aliquam erat volutpat.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== POPULAR PRODUCTS ===== -->
+  <section class="products">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Popular Product</p>
+        <h2 class="section-title">Coffee Popular Products</h2>
+      </div>
+
+      <div class="products__grid">
+        <div class="product-card">
+          <img src="./Rectangle 2.png" alt="Brazil coffee" class="product-card__img">
+          <h3 class="product-card__name">Brazil Coffee Blend</h3>
+          <div class="product-card__action">
+            <img src="./Vector (6).png" alt="Star" class="product-card__icon">
+            <a href="#" class="product-card__link">Add to cart</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="./Rectangle 2.png" alt="Brazil coffee" class="product-card__img">
+          <h3 class="product-card__name">Brazil Coffee Blend</h3>
+          <div class="product-card__action">
+            <img src="./Vector (6).png" alt="Star" class="product-card__icon">
+            <a href="#" class="product-card__link">Add to cart</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="./Rectangle 2.png" alt="Brazil coffee" class="product-card__img">
+          <h3 class="product-card__name">Brazil Coffee Blend</h3>
+          <div class="product-card__action">
+            <img src="./Vector (6).png" alt="Star" class="product-card__icon">
+            <a href="#" class="product-card__link">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="products__cta">
+        <a href="#" class="btn btn--primary">View all products</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COFFEE MACHINE ===== -->
+  <section class="machine">
+    <div class="machine__inner">
+      <div class="machine__img-wrap">
+        <img src="./WDCM-G15L-1-removebg-preview 1.png" alt="Coffee machine" class="machine__img">
+      </div>
+      <div class="machine__text">
+        <h2 class="section-title machine__title">Coffee machine, buy for home</h2>
+        <p class="section-body">
+          Mauris rhoncus in imperdiet placerat. Vestibulum nisl suscipit ligula volutpat, a fringilla urn maximus.
+          Cras massa nibh tincidunt. Donec et nibh maximus, est eu, mattis nunc. Praesent ut quam quis quam venenatis
+          fringilla. Morbi vestibulum id tellus molestie mattis. Aliquam erat volutpat.
+        </p>
+        <button class="btn btn--primary">Discover now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU ===== -->
+  <section class="menu">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Menu</p>
+        <h2 class="section-title">Coffee Popular Menu</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AMERICANO / MENU ITEMS ===== -->
+  <section class="menu-items">
+    <div class="container">
+      <div class="menu-items__grid">
+        <div class="menu-items__col">
+          <div class="menu-card">
+            <img src="./Bg.png" alt="Americano" class="menu-card__img">
+            <h3 class="menu-card__name">Americano Roasted Blend</h3>
+            <p class="menu-card__price">$12.00</p>
+          </div>
+          <div class="menu-card">
+            <img src="./Bg.png" alt="Americano" class="menu-card__img">
+            <h3 class="menu-card__name">Americano Roasted Blend</h3>
+            <p class="menu-card__price">$12.00</p>
+          </div>
+          <div class="menu-card">
+            <img src="./Bg.png" alt="Americano" class="menu-card__img">
+            <h3 class="menu-card__name">Americano Roasted Blend</h3>
+            <p class="menu-card__price">$12.00</p>
+          </div>
+          <div class="menu-card">
+            <img src="./Bg.png" alt="Americano" class="menu-card__img">
+            <h3 class="menu-card__name">Americano Roasted Blend</h3>
+            <p class="menu-card__price">$12.00</p>
+          </div>
+        </div>
+        <div class="menu-items__col">
+          <div class="menu-card">
+            <img src="./Bg.png" alt="Americano" class="menu-card__img">
+            <h3 class="menu-card__name">Americano Roasted Blend</h3>
+            <p class="menu-card__price">$12.00</p>
+          </div>
+          <div class="menu-card">
+            <img src="./Bg.png" alt="Americano" class="menu-card__img">
+            <h3 class="menu-card__name">Americano Roasted Blend</h3>
+            <p class="menu-card__price">$12.00</p>
+          </div>
+          <div class="menu-card">
+            <img src="./Bg.png" alt="Americano" class="menu-card__img">
+            <h3 class="menu-card__name">Americano Roasted Blend</h3>
+            <p class="menu-card__price">$12.00</p>
+          </div>
+          <div class="menu-card">
+            <img src="./Bg.png" alt="Americano" class="menu-card__img">
+            <h3 class="menu-card__name">Americano Roasted Blend</h3>
+            <p class="menu-card__price">$12.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Testimonial</p>
+        <h2 class="section-title">What our customers say</h2>
+      </div>
+
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__top">
+            <img src="./Rectangle 30.png" alt="John Smith" class="testimonial-card__avatar">
+            <p class="testimonial-card__text">
+              Education WP is a special build for effective education & Learning Management System site.
+              Education WP is the next generation & one of the best education WordPress themes which all
+              the strength of eLearning WP.
+            </p>
+          </div>
+          <div class="testimonial-card__bottom">
+            <h4 class="testimonial-card__name">John Smith</h4>
+            <div class="testimonial-card__meta">
+              <p class="testimonial-card__role">Product Designer</p>
+              <img src="./Group 192.png" alt="Stars" class="testimonial-card__stars">
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__top">
+            <img src="./Rectangle 30 (1).png" alt="John Smith" class="testimonial-card__avatar">
+            <p class="testimonial-card__text">
+              Education WP is a special build for effective education & Learning Management System site.
+              Education WP is the next generation & one of the best education WordPress themes which all
+              the strength of eLearning WP.
+            </p>
+          </div>
+          <div class="testimonial-card__bottom">
+            <h4 class="testimonial-card__name">John Smith</h4>
+            <div class="testimonial-card__meta">
+              <p class="testimonial-card__role">Product Designer</p>
+              <img src="./Group 192.png" alt="Stars" class="testimonial-card__stars">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LATEST NEWS ===== -->
+  <section class="news">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Blog</p>
+        <h2 class="section-title">Our latest news</h2>
+      </div>
+
+      <div class="news__grid">
+        <article class="news-card">
+          <img src="./image (29).png" alt="Cocktail article" class="news-card__img">
+          <div class="news-card__body">
+            <div class="news-card__meta">
+              <span class="news-card__author">By: Rasaline</span>
+              <span class="news-card__date">23.01.2021</span>
+            </div>
+            <h3 class="news-card__title">Ideal cocktails from barmen....</h3>
+            <div class="news-card__read">
+              <span class="news-card__read-text">Read More</span>
+              <img src="./arrow-right.png" alt="" class="news-card__arrow">
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img src="./image (29).png" alt="Cocktail article" class="news-card__img">
+          <div class="news-card__body">
+            <div class="news-card__meta">
+              <span class="news-card__author">By: Rasaline</span>
+              <span class="news-card__date">23.01.2021</span>
+            </div>
+            <h3 class="news-card__title">Ideal cocktails from barmen....</h3>
+            <div class="news-card__read">
+              <span class="news-card__read-text">Read More</span>
+              <img src="./arrow-right.png" alt="" class="news-card__arrow">
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img src="./image (29).png" alt="Cocktail article" class="news-card__img">
+          <div class="news-card__body">
+            <div class="news-card__meta">
+              <span class="news-card__author">By: Rasaline</span>
+              <span class="news-card__date">23.01.2021</span>
+            </div>
+            <h3 class="news-card__title">Ideal cocktails from barmen....</h3>
+            <div class="news-card__read">
+              <span class="news-card__read-text">Read More</span>
+              <img src="./arrow-right.png" alt="" class="news-card__arrow">
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__logo">
+          <img src="./Logo (2).png" alt="Morning Coffee">
+        </div>
+
+        <ul class="footer__nav">
+          <li>Home</li>
+          <li>About</li>
+          <li>Menu</li>
+          <li>Reservation</li>
+          <li>Pages</li>
+          <li>Shop</li>
+          <li>Contact</li>
+        </ul>
+
+        <div class="footer__subscribe">
+          <input type="email" class="footer__email" placeholder="Enter your email">
+          <button class="footer__btn">
+            <img src="./Group 35.png" alt="Subscribe">
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const burger = document.querySelector('.nav__burger');
+    const mobileMenu = document.querySelector('.nav__mobile-menu');
+    burger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('nav__mobile-menu--open');
+      burger.classList.toggle('nav__burger--open');
+    });
+  </script>
+
+</body>
+</html>
